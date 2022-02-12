@@ -57,10 +57,11 @@ for (var i = 1; i <= links.length; i++) {
   console.log(i);
 }
 console.log("I broke out of the loop!");
-*/
+
 
 links = document.getElementsByTagName("a");
 
 for (var i = 0; i < links.length; i++) {
   links[i].className = "link-" + i;
 }
+*/
