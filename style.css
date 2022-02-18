@@ -1,8 +1,8 @@
-body{
+body {
     background: #eee;
 }
 
-#content{
+#content {
     width: 400px;
     background: #fff;
     padding: 20px;
@@ -11,26 +11,23 @@ body{
     font-size: 18px;
     color: #444;
     margin: 0 auto;
-
     max-height: 270px;
     overflow: hidden;
-
     /* set transitions up. */
     -webkit-transition: max-height 0.7s;
     -moz-transition: max-height 0.7s;
     transition: max-height 0.7s;
 }
 
-#content.open{
+#content.open {
     max-height: 1000px;
-
     /* Set transitions up. */
     -webkit-transition: max-height 0.7s;
     -moz-transition: max-height 0.7s;
     transition: max-height 0.7s;
 }
 
-#show-more{
+#show-more {
     background: #1594e5;
     color: #fff;
     font-family: calibri;
@@ -42,4 +39,43 @@ body{
     text-align: center;
     margin: 20px auto;
     cursor: pointer;
+}
+
+#message {
+    width: 400px;
+    background: #ddaaaa;
+    padding: 20px;
+    padding: 20px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ff7777;
+    font-weight: bold;
+    opacity: 0;
+    /* set transitions up. */
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#message.show {
+    opacity: 1;
+    /* set transitions up. */
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#color-changer {
+    width: 200px;
+    height: 100px;
+    margin: 30px auto;
+    border: 1px solid #000;
+    background: #fff;
+    /* set transitions up. */
+    -webkit-transition: background 0.7s;
+    -moz-transition: background 0.7s;
+    transition: background 0.7s;
 }
